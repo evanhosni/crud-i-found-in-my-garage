@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>crud i found in my garage</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h1>crud i found in my garage</h1>
+    <main>
+
+        <form>
+            <label for="name">name:</label>
+            <input type="text" name="name" id="name"><br>
+            <label for="category">category:</label>
+            <select name="category" id="category">
+                <option value="furniture">furniture</option>
+                <option value="electronics">electronics</option>
+                <option value="animal">animal</option>
+                <option value="food">food</option>
+                <option value="other">other</option>
+            </select><br>
+            <label for="isDusty">isDusty</label>
+            <input type="checkbox" name="isDusty" id="isDusty"><br>
+            <button id="submit">submit</button>
+        </form>
+    
+        <div id="stuff"></div>
+
+    </main>
+
+    <script src="/client.js"></script>
+</body>
+</html>

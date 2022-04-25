@@ -1,0 +1,9 @@
+* {
+    font-family: sans-serif;
+}
+
+.item {
+    border: 3px solid black;
+    margin: 5px;
+    max-width: 200px;
+}
